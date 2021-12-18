@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:auto;
+}
+
+img {
+    width:auto;
+}
+
+h1 {
+    font-size:35px;
+}
+
+nav {
+    background-color: #128fbd;
+    margin:0px;
+    overflow:auto;
+    position: static;
+    top:0px;
+}
+
+nav ul {
+    margin:0px;
+}
+
+nav li {
+    margin:8px;
+    padding:15px;
+    list-style-type: none;
+    float:left;
+    font-family:Quicksand;
+    font-weight: bold;
+    color:#fff;
+    text-align:center;
+}
+
+nav a {
+    font-size:18px;
+    text-decoration: none;
+    color:white;
+}
+
+.home {
+   margin:auto;
+   padding:25px;
+   background-color: #128fbd;
+   color : #fff;
+   text-align:center;
+}
+
+.about {
+    text-align:center;
+    overflow :auto;
+    margin:2% 10%;
+    width:75%;
+    font-size: 20px;
+    
+}
+
+.biograpy {
+    margin:1% 10%;
+    padding:20px;
+    float:left;
+    text-align: justify;
+}
+
+.experince {
+    background-color:#128fbd;
+    font-size: 20px;
+    text-align:center;
+    padding:30px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color :#fff;
+    overflow:auto;
+}
+
+.sub-exp {
+    text-align:justify;
+    float :left;
+    padding:25px;
+    margin:10px 1px;
+}
+
+.porto {
+    margin:5px;
+    overflow:auto;
+}
+
+.porimg {
+    font-size: 18px;
+    float:left;
+    text-align:center;
+    padding:45px;
+}
+
+.cform {
+    background-color:#128fbd;
+    padding:20px;
+    color:#fff;
+    text-align:left;
+}
+
+.fform {
+    text-align:left;
+    width:auto;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    border-radius: 3px;
+    border-color:#fff 0.1px;
+    margin:10px;
+}
+
+footer {
+    margin:0px;
+    padding:5px;
+    text-align:center;
+    background-color: black;
+    color:#fff;
+}
