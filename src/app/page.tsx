@@ -14,7 +14,7 @@ export default function Home() {
             <p className="py-4 mt-3 text-justify">Hi!, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I'm interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
             <ul className="flex flex-row my-3">
                <li className="px-3">
-                  <a href='https://www.instagram.com/nandaditra/'>
+                  <a href="https://www.instagram.com/nandaditra/">
                      <i className="fa-brands fa-instagram fa-2x"></i>
                   </a>
                </li>
