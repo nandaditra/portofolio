@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col-reverse md:flex-row gap-4">
          <div className="my-auto w-full md:w-1/2">
             <h1 className="text-4xl font-bold text-blue-200">Hello Everyone!</h1>
-            <p className="py-4 mt-3 text-justify">Hi!, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I'm interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
+            <p className="py-4 mt-3 text-justify">Hi!, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
             <ul className="flex flex-row my-3">
                <li className="px-3">
                   <a href="https://www.instagram.com/nandaditra/">
@@ -94,7 +94,7 @@ export default function Home() {
                <div className="p-10 rounded-xl bg-sky-900">
                   <h1 className="text-2xl font-bold">Freephoto Website</h1>
 
-                  <p className="text-sm my-7">Freephoto is website which provides many various photo and picture freely. This website build using many stack like React and tailwindcss, Besided that, I'm also add authentication with Firebase auth and Deploy using vercel app to remote server</p>
+                  <p className="text-sm my-7">Freephoto is website which provides many various photo and picture freely. This website build using many stack like React and tailwindcss, Besided that, I&apos;m also add authentication with Firebase auth and Deploy using vercel app to remote server</p>
               
                   <a className="text-sm"><i className="fa-brands fa-github"></i> Github</a>
                   <a className="text-sm ml-4"><i className="fa-solid fa-house"></i> Live Demo</a>
