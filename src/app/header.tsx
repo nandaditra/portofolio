@@ -31,7 +31,7 @@ export default function Header(){
                    </div>
                 }
                  
-                <div className="md:ml-auto md:block">
+                <div className="md:ml-auto hidden md:block">
                   <ul className="flex flex-col md:flex-row">
                     <li className="py-3 md:py-7 md:px-4 hover:text-blue-200 hover:font-bold">Home</li>
                     <li className="py-3 md:py-7 md:px-4 hover:text-blue-200 hover:font-bold">Experience</li>

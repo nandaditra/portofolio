@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col-reverse md:flex-row gap-4">
          <div className="my-auto w-full md:w-1/2">
             <h1 className="text-4xl font-bold text-blue-200">Hello Everyone!</h1>
-            <p className="py-4 mt-3 text-justify">Hi!, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
+            <p className="py-4 mt-3 text-justify">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
             <ul className="flex flex-row my-3">
                <li className="px-3">
                   <a href="https://www.instagram.com/nandaditra/">
