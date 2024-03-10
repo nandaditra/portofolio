@@ -37,8 +37,8 @@ export default function Home() {
 
             <button className="rounded-md px-4 py-2 my-5 bg-sky-500 hover:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-300">
                 <a
-                  href="https://drive.google.com/file/d/1j2jtXps47Z1US-7dLojYCakch8XI0gAU/view?usp=sharing"
-                  >Dowload Resume
+                  href="https://drive.google.com/drive/folders/1d0ixkd9W2WzwRomPYIOe53HuIoIjYXOw"
+                  >Download Resume
                 </a>
              </button>
         </div>
