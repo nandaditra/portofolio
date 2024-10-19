@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 export default function Header(){
@@ -24,7 +25,7 @@ export default function Header(){
                 { !open ? "" :
                    <div className="md:ml-auto md:block font-medium">
                         <ul className="flex flex-col md:flex-row">
-                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Home</li>
+                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="/">home</Link></li>
                             <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Experience</li>
                             <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Project</li>
                             <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Blog</li>
@@ -34,7 +35,7 @@ export default function Header(){
                  
                 <div className="md:ml-auto hidden md:block font-semibold">
                   <ul className="flex flex-col md:flex-row">
-                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Home</li>
+                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="/">Home</Link></li>
                     <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Experience</li>
                     <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Project</li>
                     <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Blog</li>
