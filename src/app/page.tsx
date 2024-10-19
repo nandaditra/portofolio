@@ -10,8 +10,8 @@ export default function Home() {
     <main className="container px-12 md:px-24 py-16">
       <div className="flex flex-col-reverse md:flex-row gap-4">
          <div className="my-auto w-full md:w-1/2">
-            <h1 className="text-4xl font-bold text-blue-200">Hello Everyone!</h1>
-            <p className="py-4 mt-3 text-justify">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
+            <h1 className="text-4xl font-bold text-black">Hello Everyone!</h1>
+            <p className="py-4 mt-3 text-justify text-black text-lg">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
             <ul className="flex flex-row my-3">
                <li className="px-3">
                   <a href="https://www.instagram.com/nandaditra/">
@@ -35,7 +35,7 @@ export default function Home() {
                </li>
             </ul>
 
-            <button className="rounded-md px-4 py-2 my-5 bg-sky-500 hover:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-300">
+            <button className="rounded-md px-4 py-2 my-5 bg-black hover:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-300">
                 <a
                   href="https://drive.google.com/drive/folders/1d0ixkd9W2WzwRomPYIOe53HuIoIjYXOw"
                   >Download Resume
@@ -55,31 +55,97 @@ export default function Home() {
       </div>
 
       <div className="py-16">
-          <h1 className="text-center font-bold text-3xl">Experience</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12">
-               <div className="p-8 border border-white rounded-xl">
-                  <h3 className="text-2xl font-bold text-blue-200">Software Engineer Intern (Frontend)</h3>
-                  <h5 className="py-1">FxMedia Interned Pte Ltd </h5>
-                  <span className="text-sm">2 January - 31 July 2024</span>
-                  <p className="py-3 text-sm">Still Working</p>
+          <h1 className="text-center text-black font-bold text-3xl">Experience</h1>
+          <div className="flex flex-col gap-5 py-12">
+               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+                   <Image 
+                     className="relative"
+                     src="/assets/img/FXMedia/fxmedia_fxmweb_logo.jpg"
+                     alt="FXMedia Internet Pte Ltd Logo"
+                     width={200}
+                     height={200}
+                     priority
+                   />
+
+                   <div className="text-black">
+                        <h3 className="font-semibold text-2xl">FXMedia Internet Pte Ltd</h3>
+                        <p>Frontend Developer Intern</p>
+                        <p className="text-sm">Singapore, 2 January 2024 - 30 September 2024</p>
+                        <p className="text-sm text-justify my-3">
+                           In here, I have responsiblity for assist senior engineer to research new technology, developed various project from client, fix and maintain project and learn new technology
+                        </p>
+
+                        <button className="text-sm float-right font-semibold">View Project</button>
+                   </div>
                </div>
-               <div className="p-8 border border-white rounded-xl">
-                  <h3 className="text-2xl font-bold text-blue-200">Software Engineer Intern (Frontend)</h3>
-                  <h5 className="py-1">Sagara Technology</h5>
-                  <span className="text-sm">10 July - 10 October 2024</span>
-                  <p className="py-3 text-md">Responsible to developed website providing job vacancies and projects and fixing the bugs in some features in Techconsulta Website</p>
+               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+                   <Image 
+                     className="relative"
+                     src="/assets/img/SagaraTeknologi/sagara.png"
+                     alt="Sagara Teknologi"
+                     width={200}
+                     height={200}
+                     priority
+                   />
+
+                   <div className="text-black">
+                        <h3 className="font-semibold text-2xl">Sagara Teknologi</h3>
+                        <p>Frontend Engineer Intern</p>
+                        <p className="text-sm">Jakarta, Indonesia, 10 July 2023 - 10 October 2023</p>
+                        <p className="text-sm text-justify my-3">
+                           In here, I have responsiblity to handle two project, including fix and maintain TechConsulta Project and developed jobFortech from scract using React and Tailwind
+                        </p>
+
+                        <button className="text-sm float-right font-semibold">View Project</button>
+                   </div>
                </div>
-               <div className="p-8 border border-white rounded-xl">
-                  <h3 className="text-2xl font-bold text-blue-200">Frontend Developer Intern (Frontend)</h3>
-                  <h5 className="py-1">OkeGarden </h5>
-                  <span className="text-sm">18 January - 18 April 2023</span>
-                  <p className="py-3 text-md">Resposibe to developed RAB Calculator with slicing UI Design from figma to implement with code</p>
+
+               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+                   <Image 
+                     className="relative"
+                     src="/assets/img/bangkit/bangkit_logo.jpg"
+                     alt="Sagara Teknologi"
+                     width={200}
+                     height={200}
+                     priority
+                   />
+
+                   <div className="text-black">
+                        <h3 className="font-semibold text-2xl">Bangkit Academy 2023</h3>
+                        <p>Android Learning Path</p>
+                        <p className="text-sm">Jakarta, Indonesia, 16 February 2023 - 31 July 2023</p>
+                        <p className="text-sm text-justify my-3">
+                           In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer</p>
+
+                        <button className="text-sm float-right font-semibold">View Project</button>
+                   </div>
+               </div>
+
+               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+                   <Image 
+                     className="relative"
+                     src="/assets/img/OKEGarden/okegarden_logo.jpg"
+                     alt="Sagara Teknologi"
+                     width={200}
+                     height={200}
+                     priority
+                   />
+
+                   <div className="text-black">
+                        <h3 className="font-semibold text-2xl">OKE Garden</h3>
+                        <p>Frontend Engineer Intern</p>
+                        <p className="text-sm">Jakarta, Indonesia, 10 July 2023 - 10 October 2023</p>
+                        <p className="text-sm text-justify my-3">
+                           In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer</p>
+
+                        <button className="text-sm float-right font-semibold">View Project</button>
+                   </div>
                </div>
           </div>
       </div>
 
       <div className="py-2">
-          <h1 className="text-center font-bold text-3xl">Side Project</h1>
+          <h1 className="text-center font-bold text-black text-3xl">Relevant Project</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-8 text-justify">
                <div className="p-10 rounded-xl bg-sky-900">
