@@ -16,7 +16,7 @@ export default function FXMedia(){
 
                <main>
                   <div className='container px-12 md:px-24 py-8 text-justify'>
-                     <div className='flex flex-row gap-6'>
+                     <div className='flex flex-col md:flex-row gap-6'>
                          <Image 
                             width={300}
                             height={300}
@@ -43,7 +43,7 @@ export default function FXMedia(){
                          <h1 className="text-2xl font-bold">Project</h1>
 
                          <h4 className="text-xl font-bold mt-4">Web Game NTU Mathematics Digital Game</h4>
-                         <div className="grid grid-cols-2 gap-2">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                              <Image 
                                 className="relative"
                                 width={1000}
@@ -75,7 +75,7 @@ export default function FXMedia(){
                          </div>
 
                          <h4 className="text-xl font-bold mt-4">Treasure Web</h4>
-                         <div className="grid grid-cols-2 gap-2">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                              <Image 
                                 className="relative"
                                 width={1000}
@@ -85,7 +85,7 @@ export default function FXMedia(){
                              />
                          </div>
                          <h4 className="text-xl font-bold mt-4">Chart Log Data Web</h4>
-                         <div className="grid grid-cols-2 gap-2">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                              <Image 
                                 className="relative"
                                 width={1000}
