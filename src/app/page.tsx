@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Header from './header'
 import Footer from './footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -75,7 +76,7 @@ export default function Home() {
                            In here, I have responsiblity for assist senior engineer to research new technology, developed various project from client, fix and maintain project and learn new technology
                         </p>
 
-                        <button className="text-sm float-right font-semibold">View Project</button>
+                        <button className="text-sm float-right font-semibold"><Link href="/fxmedia">View Project</Link></button>
                    </div>
                </div>
                <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
@@ -96,7 +97,7 @@ export default function Home() {
                            In here, I have responsiblity to handle two project, including fix and maintain TechConsulta Project and developed jobFortech from scract using React and Tailwind
                         </p>
 
-                        <button className="text-sm float-right font-semibold">View Project</button>
+                        <button className="text-sm float-right font-semibold"><Link href="/sagara">View Project</Link></button>
                    </div>
                </div>
 
@@ -117,7 +118,7 @@ export default function Home() {
                         <p className="text-sm text-justify my-3">
                            In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer</p>
 
-                        <button className="text-sm float-right font-semibold">View Project</button>
+                        <button className="text-sm float-right font-semibold"><Link href="/bangkit">View Project</Link></button>
                    </div>
                </div>
 
@@ -138,7 +139,7 @@ export default function Home() {
                         <p className="text-sm text-justify my-3">
                            In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer</p>
 
-                        <button className="text-sm float-right font-semibold">View Project</button>
+                        <button className="text-sm float-right font-semibold"><Link href="/okegarden">View Project</Link></button>
                    </div>
                </div>
           </div>
