@@ -12,8 +12,8 @@ export default function Home() {
          <div className="my-auto w-full md:w-1/2">
             <h1 className="text-4xl font-bold text-black">Hello Everyone!</h1>
             <p className="py-4 mt-3 text-justify text-black text-lg">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
-            <ul className="flex flex-row my-3">
-               <li className="px-3">
+            <ul className="flex flex-row my-3 text-black">
+               <li className="px-3 ">
                   <a href="https://www.instagram.com/nandaditra/">
                      <i className="fa-brands fa-instagram fa-2x"></i>
                   </a>
@@ -57,9 +57,9 @@ export default function Home() {
       <div className="py-16">
           <h1 className="text-center text-black font-bold text-3xl">Experience</h1>
           <div className="flex flex-col gap-5 py-12">
-               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+               <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
                    <Image 
-                     className="relative"
+                     className="relative mx-auto"
                      src="/assets/img/FXMedia/fxmedia_fxmweb_logo.jpg"
                      alt="FXMedia Internet Pte Ltd Logo"
                      width={200}
@@ -78,9 +78,9 @@ export default function Home() {
                         <button className="text-sm float-right font-semibold">View Project</button>
                    </div>
                </div>
-               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+               <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
                    <Image 
-                     className="relative"
+                     className="relative mx-auto"
                      src="/assets/img/SagaraTeknologi/sagara.png"
                      alt="Sagara Teknologi"
                      width={200}
@@ -100,9 +100,9 @@ export default function Home() {
                    </div>
                </div>
 
-               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+               <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
                    <Image 
-                     className="relative"
+                     className="relative mx-auto"
                      src="/assets/img/bangkit/bangkit_logo.jpg"
                      alt="Sagara Teknologi"
                      width={200}
@@ -121,9 +121,9 @@ export default function Home() {
                    </div>
                </div>
 
-               <div className="w-1/2 flex flex-row mx-auto gap-4 rounded-md border border-1 p-3">
+               <div className="w-full md:w-1/2 flex flex-col mx-auto md:flex-row gap-4 rounded-md border border-1 p-3">
                    <Image 
-                     className="relative"
+                     className="relative mx-auto"
                      src="/assets/img/OKEGarden/okegarden_logo.jpg"
                      alt="Sagara Teknologi"
                      width={200}
@@ -148,22 +148,56 @@ export default function Home() {
           <h1 className="text-center font-bold text-black text-3xl">Relevant Project</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-8 text-justify">
-               <div className="p-10 rounded-xl bg-sky-900">
-                  <h1 className="text-2xl font-bold">Bestimall E-commerce Website</h1>
-
-                  <p className="text-sm my-7">frontend e-commerce website which provided t-shirt, electronic and jewelery. This website built with tech stack Angular, Typescript, Bootstrap, NodeJs, Scss and Angular Material.</p>
-
-                  <a className="text-sm"><i className="fa-brands fa-github"></i> Github</a>
-                  <a className="text-sm ml-4"><i className="fa-solid fa-house"></i> Live Demo</a>
+               <div className="rounded-md drop-shadow border border-1">
+                  <Image 
+                     className="rounded-md"
+                     src="/assets/img/project/bestimall/bestimall.png"
+                     alt="Bestimall"
+                     width={1000}
+                     height={400}
+                  />
+                  <div className="text-black p-4">
+                     <h3 className="text-3xl font-bold">Bestimall</h3>
+                     <p className="text-md mt-2">E-commerce website which provides various product from fakestore api and payment feature from stripe. This project build with Angular and Tailwind. For Payment using third party library Stripe and Firebase for authentication</p>
+                     <div className="flex gap-4 float-right pb-3">
+                        <a className="font-bold" href="https://github.com/nandaditra/bestimall">Github</a> 
+                        <a className="font-bold" href="https://bestimall.vercel.app/home">Project</a>
+                     </div>
+                  </div>
                </div>
-
-               <div className="p-10 rounded-xl bg-sky-900">
-                  <h1 className="text-2xl font-bold">Freephoto Website</h1>
-
-                  <p className="text-sm my-7">Freephoto is website which provides many various photo and picture freely. This website build using many stack like React and tailwindcss, Besided that, I&apos;m also add authentication with Firebase auth and Deploy using vercel app to remote server</p>
-              
-                  <a className="text-sm"><i className="fa-brands fa-github"></i> Github</a>
-                  <a className="text-sm ml-4"><i className="fa-solid fa-house"></i> Live Demo</a>
+               <div className="rounded-md drop-shadow border border-1">
+                  <Image 
+                     className="rounded-md"
+                     src="/assets/img/project/nontonmovie/nontonfilm.png"
+                     alt="Nonton Film"
+                     width={1000}
+                     height={400}
+                  />
+                  <div className="text-black p-4">
+                     <h3 className="text-3xl font-bold">Nontonmovie</h3>
+                     <p className="text-md mt-2">Movie website which provides various genre theme in movie. This website build using Angular and tailwind with API from moviedb api. For authentication and database using firebase for real time database</p>
+                     <div className="flex gap-4 float-right  pb-3">
+                        <a className="font-bold" href="https://github.com/nandaditra/nontonmovie-frontend">Github</a> 
+                        <a className="font-bold" href="https://nontonfilm-frontend.vercel.app/home">Project</a>
+                     </div>
+                  </div>
+               </div>
+               <div className="rounded-md drop-shadow border border-1">
+                  <Image 
+                     className="rounded-md"
+                     src="/assets/img/project/freephoto/freephoto.png"
+                     alt="Nonton Film"
+                     width={1000}
+                     height={400}
+                  />
+                  <div className="text-black p-4">
+                     <h3 className="text-3xl font-bold">Freephoto</h3>
+                     <p className="text-md mt-2">Movie website which provides various genre theme in movie. This website build using Angular and tailwind with API from moviedb api. For authentication and database using firebase for real time database</p>
+                     <div className="flex gap-4 float-right  pb-3">
+                        <a className="font-bold" href="https://github.com/nandaditra/freePhoto-frontend">Github</a> 
+                        <a className="font-bold" href="https://free-photo-frontend.vercel.app/">Project</a>
+                     </div>
+                  </div>
                </div>
           </div>
       </div>

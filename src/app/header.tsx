@@ -15,7 +15,7 @@ export default function Header(){
                 <div className="flex">
                     <a className="py-4 text-black text-2xl font-bold mr-auto">nandaditra</a>
                     <div className="ml-auto md:hidden py-4" onClick={navbar}>
-                        <span className="material-icons-outlined focus:outline-none focus:ring focus:ring-sky-300">
+                        <span className="material-icons-outlined text-black focus:outline-none focus:ring focus:ring-sky-300">
                             menu
                         </span>
                     </div>
