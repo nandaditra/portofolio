@@ -8,31 +8,32 @@ export default function Home() {
     <>
     <Header />
 
-    <main className="container px-12 md:px-24 py-16">
+    <main>
+      <div className="container px-12 md:px-24 py-16">
       <div className="flex flex-col-reverse md:flex-row gap-4">
          <div className="my-auto w-full md:w-1/2">
             <h1 className="text-4xl font-bold text-black">Hello Everyone!</h1>
             <p className="py-4 mt-3 text-justify text-black text-lg">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
             <ul className="flex flex-row my-3 text-black">
                <li className="px-3 ">
-                  <a href="https://www.instagram.com/nandaditra/">
+                  <Link href="https://www.instagram.com/nandaditra/">
                      <i className="fa-brands fa-instagram fa-2x"></i>
-                  </a>
+                  </Link>
                </li>
                <li className="px-3">
-                  <a href="https://www.linkedin.com/in/nandaditra">
+                  <Link href="https://www.linkedin.com/in/nandaditra">
                      <i className="fa-brands fa-linkedin fa-2x"></i>
-                  </a>
+                  </Link>
                </li>
                <li className="px-3">
-                  <a href="https://github.com/nandaditra">
+                  <Link href="https://github.com/nandaditra">
                      <i className="fa-brands fa-github fa-2x"></i>
-                  </a>
+                  </Link>
                </li>
                <li className="px-3">
-                  <a href="https://www.facebook.com/NandaditraOsd12/">
+                  <Link href="https://www.facebook.com/NandaditraOsd12/">
                      <i className="fa-brands fa-facebook fa-2x"></i>
-                  </a>
+                  </Link>
                </li>
             </ul>
 
@@ -124,6 +125,8 @@ export default function Home() {
           </div>
       </div>
 
+       
+
       <div className="py-2">
           <h1 className="text-center font-bold text-black text-3xl">Relevant Project</h1>
           
@@ -135,6 +138,7 @@ export default function Home() {
                      alt="Bestimall"
                      width={1000}
                      height={400}
+                     priority
                   />
                   <div className="text-black p-4">
                      <h3 className="text-3xl font-bold">Bestimall</h3>
@@ -152,6 +156,7 @@ export default function Home() {
                      alt="Nonton Film"
                      width={1000}
                      height={400}
+                     priority
                   />
                   <div className="text-black p-4">
                      <h3 className="text-3xl font-bold">Nontonmovie</h3>
@@ -169,6 +174,7 @@ export default function Home() {
                      alt="Nonton Film"
                      width={1000}
                      height={400}
+                     priority
                   />
                   <div className="text-black p-4">
                      <h3 className="text-3xl font-bold">Freephoto</h3>
@@ -180,6 +186,7 @@ export default function Home() {
                   </div>
                </div>
           </div>
+      </div>
       </div>
     </main>
 
