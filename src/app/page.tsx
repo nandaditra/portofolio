@@ -101,27 +101,6 @@ export default function Home() {
                    </div>
                </div>
 
-               <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
-                   <Image 
-                     className="relative mx-auto"
-                     src="/assets/img/bangkit/bangkit_logo.jpg"
-                     alt="Sagara Teknologi"
-                     width={200}
-                     height={200}
-                     priority
-                   />
-
-                   <div className="text-black">
-                        <h3 className="font-semibold text-2xl">Bangkit Academy 2023</h3>
-                        <p>Android Learning Path</p>
-                        <p className="text-sm">Jakarta, Indonesia, 16 February 2023 - 31 July 2023</p>
-                        <p className="text-sm text-justify my-3">
-                           In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer</p>
-
-                        <button className="text-sm float-right font-semibold"><Link href="/bangkit">View Project</Link></button>
-                   </div>
-               </div>
-
                <div className="w-full md:w-1/2 flex flex-col mx-auto md:flex-row gap-4 rounded-md border border-1 p-3">
                    <Image 
                      className="relative mx-auto"
