@@ -21,6 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
          <script src="https://kit.fontawesome.com/f21655dc3b.js" crossOrigin="anonymous"></script>
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+          AOS.init();
+        </script>
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"></link>
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>{children}</body>
