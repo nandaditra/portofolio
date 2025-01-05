@@ -5,6 +5,8 @@ import game1 from '../../../public/assets/img/FXMedia/project/Landing-Page.png'
 import game2 from '../../../public/assets/img/FXMedia/project/Login-Player.png'
 import game3 from '../../../public/assets/img/FXMedia/project/Main-Menu.png'
 import game4 from '../../../public/assets/img/FXMedia/project/Normal.png'
+import volaris1 from '../../../public/assets/img/FXMedia/project/volaris-game-1.png'
+import volaris2 from '../../../public/assets/img/FXMedia/project/volaris-game.png'
 import treasure from '../../../public/assets/img/FXMedia/project/treasure-web.png'
 import log from '../../../public/assets/img/FXMedia/project/chart-log.png'
 import Image from 'next/image'
@@ -82,6 +84,23 @@ export default function FXMedia(){
                                 height={500}
                                 src={treasure}
                                 alt="Landing Page Web Game NTU"
+                             />
+                         </div>
+                         <h4 className="text-xl font-bold mt-4">Volaris Games</h4>
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                             <Image 
+                                className="relative"
+                                width={1000}
+                                height={500}
+                                src={volaris1}
+                                alt="VOlaris Games 1"
+                             />
+                              <Image 
+                                className="relative"
+                                width={1000}
+                                height={500}
+                                src={volaris2}
+                                alt="VOlaris Games 2"
                              />
                          </div>
                          <h4 className="text-xl font-bold mt-4">Chart Log Data Web</h4>
