@@ -9,11 +9,11 @@ export default function Home() {
     <Header />
 
     <main>
-      <div className="container px-12 md:px-24 py-16">
+      <div className="container mx-auto px-12 md:px-24 py-16">
       <div className="flex flex-col-reverse md:flex-row gap-4">
          <div className="my-auto w-full md:w-1/2">
             <h1 className="text-4xl font-bold text-black">Hello Everyone!</h1>
-            <p className="py-4 mt-3 text-justify text-black text-lg">Hi, My name Nanda Aditya Putra. I am final year Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Have experience for lest than one year as Software Engineer in startup company. </p>
+            <p className="py-4 mt-3 text-justify text-black text-lg">Graduate from Computer Science student at Brawijaya University. I&apos;m interest and passion in Software Engineer. Proficient in Javascript, React, NextJs,and Typescript. Interesting in frontend development with several tech stack like React.js, Next.js, and Angular. Keep learn and update tehnology</p>
             <ul className="flex flex-row my-3 text-black">
                <li className="px-3 hover:animate-bounce transition duration-150 ease-in-out">
                   <Link href="https://www.instagram.com/nandaditra/">
@@ -57,7 +57,8 @@ export default function Home() {
       </div>
 
       <div className="py-16">
-          <h1 className="text-center text-black font-bold text-4xl">My Journey Experience</h1>
+          <h1 className="text-center text-black font-bold text-4xl">#My Careey Journey</h1>
+          <p className="text-center text-black text-xl">Experience</p>
           <div className="flex flex-col gap-5 py-12">
                <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4 rounded-md border border-1 p-3">
                    <Image 
@@ -127,8 +128,6 @@ export default function Home() {
                </div>
           </div>
       </div>
-
-       
 
       <div className="py-2">
           <h1 className="text-center font-bold text-black text-3xl">Relevant Project</h1>

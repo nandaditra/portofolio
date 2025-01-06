@@ -11,7 +11,7 @@ export default function Header(){
     }    
 
     return (
-        <header className="container px-12 md:px-24">
+        <header className="container mx-auto px-12 md:px-24">
             <nav className="flex flex-col md:flex-row md:items-center md:justify-between mx-auto">
                 <div className="flex">
                     <a className="py-4 text-black text-2xl font-bold mr-auto">nandaditra</a>
