@@ -103,7 +103,7 @@ export default function Home() {
       </div>
 
       <div className="py-2">
-          <h1 className="text-center font-bold text-black text-3xl">Relevant Project</h1>
+          <h1 className="text-center font-bold text-black text-4xl">Relevant Project</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-8 text-justify">
                <div className="rounded-md drop-shadow border border-1">
