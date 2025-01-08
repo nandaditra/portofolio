@@ -56,7 +56,7 @@ export default function Home() {
          </div>
       </div>
 
-      <div className="py-16">
+      <div className="py-16" id="experience">
           <h1 className="text-center text-black font-bold text-4xl">#My Careey Journey</h1>
           <p className="text-center text-black text-xl">Experience</p>
           <div className="flex flex-col gap-5 py-12">
@@ -102,11 +102,11 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="py-2">
+      <div className="py-2"  id="project">
           <h1 className="text-center font-bold text-black text-4xl">Relevant Project</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-8 text-justify">
-               <div className="rounded-md drop-shadow border border-1">
+               {/* <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
                      src="/assets/img/project/bestimall/bestimall.png"
@@ -155,7 +155,7 @@ export default function Home() {
                         <a className="font-bold" href="https://nontonfilm-frontend.vercel.app/home">Project</a>
                      </div>
                   </div>
-               </div>
+               </div> */}
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
