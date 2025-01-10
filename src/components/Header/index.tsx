@@ -1,7 +1,7 @@
 "use client"
 
-import Link from 'next/link';
 import React, { useState } from 'react'
+import Navigation from '../Navigation';
 
 export default function Header(){
     const [open, setOpen] = useState<boolean>(false);
@@ -25,20 +25,20 @@ export default function Header(){
                 { !open ? "" :
                    <div className="md:ml-auto md:block font-medium">
                         <ul className="flex flex-col md:flex-row">
-                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="/">home</Link></li>
-                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Experience</li>
-                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Project</li>
-                            <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">Blog</li>
+                            <Navigation link="/" title_nav="Home"/>
+                            <Navigation link="#experience" title_nav="Experience" />
+                            <Navigation link="#project" title_nav="Project" />
+                            <Navigation link="/blog" title_nav="Blog" />
                         </ul>
                    </div>
                 }
                  
                 <div className="md:ml-auto hidden md:block font-semibold">
                   <ul className="flex flex-col md:flex-row">
-                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="/">Home</Link></li>
-                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="#experience">Experience</Link></li>
-                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="#project">Project</Link></li>
-                    <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold"><Link href="/blog">Blog</Link></li>
+                    <Navigation link="/" title_nav="Home"/>
+                    <Navigation link="#experience" title_nav="Experience" />
+                    <Navigation link="#project" title_nav="Project" />
+                    <Navigation link="/blog" title_nav="Blog" />
                   </ul>
                 </div>
             </nav>

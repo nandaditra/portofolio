@@ -1,10 +1,14 @@
 interface Title {
-   
+   style:string,
+   title:string
 }
 
-const Title =() => {
+const Title =({
+    style,
+    title
+}:Title) => {
     return (
-        <h1 className="text-4xl font-bold text-black">Hello Everyone!</h1>
+        <h1 className={style}>{title}</h1>
     )
 }
 
