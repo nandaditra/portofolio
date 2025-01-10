@@ -10,11 +10,11 @@ const Navigation = ({
     title_nav
 }:NavigationProps) => {
     return ( 
-      <li className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">
+      <div className="py-3 md:py-7 md:px-4 hover:text-black text-black hover:font-bold">
          <Link href={link}>
             {title_nav}
         </Link>
-      </li>)
+      </div>)
 }
 
 export default Navigation

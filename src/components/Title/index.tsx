@@ -8,7 +8,7 @@ const Title =({
     title
 }:Title) => {
     return (
-        <h1 className={style}>{title}</h1>
+        <div className={style}>{title}</div>
     )
 }
 

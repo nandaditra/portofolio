@@ -10,13 +10,11 @@ export default function Home() {
     <>
     <Header />
 
-    <main>
      <div className="container mx-auto px-12 md:px-24 py-16">
          <Hero />
          <Experience />
          <Project />
       </div>
-    </main>
 
     <Footer />
     </>
