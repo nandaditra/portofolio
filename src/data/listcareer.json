@@ -1,0 +1,28 @@
+
+[
+ {
+    "id":1,
+    "company": "FXMedia Internet Pte Ltd",
+    "title": "Frontend Developer Intern",
+    "location": "Singapore",
+    "date": "2 Jan - 30 Sep 2024",
+    "description": "In here, I have responsiblity for assist senior engineer to research new technology, developed various project from client, fix and maintain project and learn new technology",
+    "link": "/fxmedia"
+ },{
+    "id":2,
+    "company": "Sagara Teknologi",
+    "title": "Frontend Engineer Intern",
+    "location": "Jakarta, Indonesia",
+    "date": "10 Jul - 10 Oct 2023",
+    "description": "In here, I have responsiblity to handle two project, including fix and maintain TechConsulta Project and developed jobFortech from scract using React and Tailwind",
+    "link": "/sagara"
+ }, {
+    "id":3,
+    "company": "OKE Garden",
+    "title": "Frontend Engineer Intern",
+    "location": "Jakarta, Indonesia",
+    "date": "10 Jan - 10 Apr 2023",
+    "description": "In here, I collaborate with cross functional team to developed and integrated RAB Calculator feature with Product Manager, UI/UX Designer, and Backend Developer",
+    "link": "/okegarden"
+ }
+]

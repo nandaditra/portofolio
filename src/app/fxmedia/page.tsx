@@ -1,5 +1,5 @@
-import Header from '../header'
-import Footer from '../footer'
+import Header from '@/components/Header'
+import Footer from '../../components/Footer'
 import fxmedia from '../../../public/assets/img/FXMedia/fxmedia_fxmweb_logo.jpg'
 import game1 from '../../../public/assets/img/FXMedia/project/Landing-Page.png'
 import game2 from '../../../public/assets/img/FXMedia/project/Login-Player.png'

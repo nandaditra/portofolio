@@ -1,5 +1,5 @@
-import Header from '../header'
-import Footer from '../footer'
+import Header from '@/components/Header'
+import Footer from '../../components/Footer'
 import sagara from '../../../public/assets/img/SagaraTeknologi/sagara.png'
 import techconsulta1 from '../../../public/assets/img/SagaraTeknologi/project/tehconsulta-1.png'
 import techconsulta2 from '../../../public/assets/img/SagaraTeknologi/project/tehconsulta-2.png'

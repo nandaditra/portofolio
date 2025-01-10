@@ -1,9 +1,11 @@
 import Image from 'next/image'
-import Header from './header'
-import Footer from './footer'
+import Footer from '../components/Footer'
 import Link from 'next/link'
+import Header from '@/components/Header'
+import listcareer from "../data/listcareer.json"
 
 export default function Home() {
+  
   return (
     <>
     <Header />
@@ -106,7 +108,7 @@ export default function Home() {
           <h1 className="text-center font-bold text-black text-4xl">Relevant Project</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-8 text-justify">
-               {/* <div className="rounded-md drop-shadow border border-1">
+               <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
                      src="/assets/img/project/bestimall/bestimall.png"
@@ -155,7 +157,7 @@ export default function Home() {
                         <a className="font-bold" href="https://nontonfilm-frontend.vercel.app/home">Project</a>
                      </div>
                   </div>
-               </div> */}
+               </div>
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
