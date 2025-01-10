@@ -1,6 +1,6 @@
 import Header from '@/components/Header'
-import Footer from '../../components/Footer'
-import okegarden from '../../../public/assets/img/OKEGarden/okegarden_logo.jpg'
+import Footer from '@/components/Footer'
+import okegarden from '@/assets/img/OKEGarden/okegarden_logo.jpg'
 import Image from 'next/image'
 
 export default function Okegarden(){
