@@ -1,4 +1,9 @@
 import Image from "next/image"
+import bestimall from "@/assets/img/project/bestimall/bestimall.png"
+import nontonmovie from "@/assets/img/project/nontonmovie/nontonfilm.png"
+import freephoto from "@/assets/img/project/freephoto/freephoto.png"
+import ardes from "@/assets/img/project/Ardes/ardes-fe.png"
+import traveltour from "@/assets/img/project/traveltour/travel.png"
 
 const Project = () => {
     return (
@@ -9,7 +14,7 @@ const Project = () => {
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
-                     src="/assets/img/project/bestimall/bestimall.png"
+                     src={bestimall}
                      alt="Bestimall"
                      width={1000}
                      height={400}
@@ -34,7 +39,7 @@ const Project = () => {
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
-                     src="/assets/img/project/nontonmovie/nontonfilm.png"
+                     src={nontonmovie}
                      alt="Nonton Film"
                      width={1000}
                      height={400}
@@ -59,7 +64,7 @@ const Project = () => {
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
-                     src="/assets/img/project/freephoto/freephoto.png"
+                     src={freephoto}
                      alt="Nonton Film"
                      width={1000}
                      height={400}
@@ -84,7 +89,7 @@ const Project = () => {
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
-                     src="/assets/img/project/Ardes/ardes-fe.png"
+                     src={ardes}
                      alt="Ardes"
                      width={1000}
                      height={400}
@@ -110,7 +115,7 @@ const Project = () => {
                <div className="rounded-md drop-shadow border border-1">
                   <Image 
                      className="rounded-md"
-                     src="/assets/img/project/traveltour/travel.png"
+                     src={traveltour}
                      alt="Nonton Film"
                      width={1000}
                      height={400}
