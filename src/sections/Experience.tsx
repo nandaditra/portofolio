@@ -6,6 +6,17 @@ const Experience = () => {
           <h1 className="text-center text-black font-bold text-4xl">#My Careey Journey</h1>
           <p className="text-center text-black text-xl">Experience</p>
           <div className="flex flex-col gap-5 py-12">
+                <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4">
+                   <div className="text-black">
+                        <h3 className="font-semibold text-2xl">PT Bank Mandiri (Persero) Tbk</h3>
+                        <p>Software Engineer</p>
+                        <p className="text-sm">📬 Indonesia</p>
+                        <p className="text-sm">📅 31 Jan 2025 - current</p>
+                        <p className="text-sm text-justify my-3">
+                           let's cooking
+                        </p>
+                   </div>
+               </div>
                <div className="w-full md:w-1/2 flex flex-col md:flex-row mx-auto gap-4">
                    <div className="text-black">
                         <h3 className="font-semibold text-2xl">FXMedia Internet Pte Ltd</h3>
